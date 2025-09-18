@@ -24,12 +24,25 @@
     padding: 0.25rem;
     display: inline-block;
     align-items: center;
+    margin: 0 0.1rem;
+}
+
+.header__navbar-item-icon {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.header__navbar-item--separate {
+    position: relative;
 }
 
 .header__navbar-item--separate::after {
     content: "";
-    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
     height: 1.6rem;
     width: 0.16rem;
     background-color: #ff6654;
+    margin-left: 0.1rem;
 }
