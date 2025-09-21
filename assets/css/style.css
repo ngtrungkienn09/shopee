@@ -13,7 +13,7 @@
 }
 
 .header__navbar-item {
-
+    position: relative;
 }
 
 .header__navbar-item,
@@ -27,20 +27,67 @@
     margin: 0 0.1rem;
 }
 
-.header__navbar-item-icon {
-    color: var(--white-color);
-    text-decoration: none;
+.header__navbar-qr {
+    position: absolute;
+    left: 0;
+    top: 120%;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    border: 5px solid;
+    display: none;
+    animation: fadeIn ease-in 0.3s;
 }
 
-.header__navbar-item--separate {
-    position: relative;
+.header__img-qr {
+
 }
+
+.header__app-download {
+    justify-content: space-between;
+    margin: 0 14px;
+}
+
+.img-app-download {
+    height: 1.6rem;
+}
+
+.header__navbar-qr::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 5%;
+    width: 100%;
+    top: -5%;
+    left: 0;
+}
+
+.header__navbar--open:hover .header__navbar-qr {
+    display: block;
+}
+
+.header__navbar-item-link:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.header__navbar--no-pointer {
+    cursor: text;
+    color: var(--white-color);
+    margin-left: 0.4rem;
+}
+
+.header__navbar-icon {
+    font-size: 1.6rem;
+}
+
+
 
 .header__navbar-item--separate::after {
     content: "";
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 50%;
+    right: -0.2rem;
+    transform: translateY(-50%);
     height: 1.6rem;
     width: 0.16rem;
     background-color: #ff6654;
