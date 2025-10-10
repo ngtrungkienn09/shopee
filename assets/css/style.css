@@ -7,6 +7,7 @@
 }
 
 .header__navbar-list {
+    align-items: center;
     padding-left: 0;
     list-style: none;
     margin: 0;
@@ -37,6 +38,7 @@
     border: 5px solid;
     display: none;
     animation: fadeIn ease-in 0.3s;
+    z-index: 1;
 }
 
 .header__img-qr {
@@ -95,10 +97,12 @@
 
 .header__notification {
     width: 40.4rem;
+    z-index: 1;
 }
 
 .header__navbar-globe {
     width: 20rem;
+    z-index: 1;
 }
 
 .header__notification,
@@ -692,7 +696,7 @@
 }
 
 .header__cart-item-name {
-    width: 220px;
+    width: 240px;
     font-size: 1.5rem;
     white-space: nowrap;
     overflow: hidden;
