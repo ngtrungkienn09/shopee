@@ -1093,3 +1093,110 @@
 .heading-page__control--disable i {
     color: #cccccc;
 }
+
+.home-product-item {
+    background-color: var(--white-color);
+    margin-top: 12px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+}
+
+.home-product-item__img {
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.home-product-item__name {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 8px 6px 4px;
+    line-height: 1.8rem;
+    height: 3.6rem;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.home-product-item__price {
+    margin: 0 6px;
+}
+
+.home-product-item__price-old {
+    font-size: 1.3rem;
+    color: var(--text-color);
+    text-decoration: line-through;
+    margin-right: 8px;
+}
+
+.home-product-item__price-current {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+}
+
+.home-product-item__label {
+    margin: 6px;
+}
+
+.home-product-item__label-sale {
+    padding: 2px 4px;
+    border: 1px solid var(--primary-color);
+    border-radius: 2px;
+    color: var(--primary-color);
+    margin-right: 4px;
+}
+
+.home-product-item__label-best {
+    padding: 3px 5px;
+    border-radius: 2px;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.home-product-item__evaluate {
+    margin: 12px 6px 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-product-item__action {
+    font-size: 1.4rem;
+}
+
+.home-product-item__action-unlike {
+    color: var(--text-color);
+}
+
+.home-product-item__action-like {
+    color: #ff2d2d;
+    display: none;
+}
+
+.home-product-item__action--liked .home-product-item__action-unlike {
+    display: none;
+}
+
+.home-product-item__action--liked .home-product-item__action-like {
+    display: block;
+}
+
+.home-product-item__action-quantity {
+    font-size: 1.3rem;
+}
+
+.home-product-item__origin {
+    margin: 4px 6px 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-product-item__origin-name {
+
+}
+
+.home-product-item__sold {
+
+}
