@@ -1194,9 +1194,13 @@
 }
 
 .home-product-item__origin-name {
-
+    
 }
 
 .home-product-item__sold {
 
+}
+
+.heading-sort__pagination {
+    margin: 48px 32px;
 }
