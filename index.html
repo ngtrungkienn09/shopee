@@ -8,13 +8,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-7.0.1-web/fontawesome-free-7.0.1-web/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 <body>
     <div id="main">
         <header class="header">
-            <div class="grid">
-                <div class="header__navbar flex">
+            <div class="grid wide">
+                <div class="header__navbar flex hide__mobile-tablet">
                     <div class="navbar-list-left">
                         <ul class="header__navbar-list flex">
                             <li class="header__navbar-item header__navbar-item--separate">
@@ -319,7 +321,7 @@
         </header>
 
         <div class="banner">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="banner-img">
                     <div class="banner-img-1">
                         <img src="https://down-vn.img.susercontent.com/file/sg-11134258-8259w-mfuppj10i5fy3a@resize_w1594_nl.webp" alt="" class="banner-img-voucher">
@@ -381,7 +383,7 @@
         </nav>
 
         <div class="container">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="grid__row container__content">
                     <div class="grid__column-2">
                         <div class="category">
@@ -409,7 +411,7 @@
                         </div>
                     </div>
                     <div class="grid__column-10">
-                        <div class="heading-sort">
+                        <div class="heading-sort hide__mobile-tablet">
                             <div class="heading-sort__option">
                                 <span class="heading-sort__label">Sắp xếp theo</span>
                                 <button class="heading-sort__btn btn btn--primary">Phổ biến</button>
@@ -943,8 +945,195 @@
         </div>
 
         <footer class="footer">
+            <div class="grid wide">
+                <div class="grid__row">
+                    <div class="grid__column-2-4">
+                        <span class="footer__header">CHĂM SÓC KHÁCH HÀNG</span> 
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Trung Tâm Trợ Giúp
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Shopee Mall
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Hướng Dẫn Mua Hàng
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Shopee Blog
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Ví ShopeePay
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Shopee Xu
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Đơn Hàng
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Trả Hàng/Hoàn Tiền
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <span class="footer__header">SHOPEE VIỆT NAM</span> 
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Về Shopee
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Tuyển Dụng
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Điều Khoản Shopee
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Chính Sách Bảo Mật
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Kênh Người Bán
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Flash Sale
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Tiếp Thị Liên Kết
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Liên Hệ Truyền Thông
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <div class="footer-pay">
+                            <span class="footer-pay__header">THANH TOÁN</span>
+                            <div class="footer-pay__list">
+                                <img src="./assets/img/pay/visa.png" alt="#" class="footer-pay__img">
+                                <img src="./assets/img/pay/credit.png" alt="#" class="footer-pay__img">
+                                <img src="./assets/img/pay/cod.png" alt="#" class="footer-pay__img">
+                                <img src="./assets/img/pay/jcb.png" alt="#" class="footer-pay__img">
+                                <img src="./assets/img/pay/spay.png" alt="#" class="footer-pay__img">
+                                <img src="./assets/img/pay/spaylater.png" alt="#" class="footer-pay__img">
+                                <img src="./assets/img/pay/tragop.png" alt="#" class="footer-pay__img">
 
+                            </div>
+                        </div>
+                        <div class="footer-transform">
+                            <span class="footer-transform__header">ĐƠN VỊ VẬN CHUYỂN</span> 
+                            <div class="footer-transform__list">
+                                <img src="./assets/img/transport/aha.png" alt="" class="footer-transform__img">
+                                <img src="./assets/img/transport/be.png" alt="" class="footer-transform__img">
+                                <img src="./assets/img/transport/grab.png" alt="" class="footer-transform__img">
+                                <img src="./assets/img/transport/JT.png" alt="" class="footer-transform__img">
+                                <img src="./assets/img/transport/spx.png" alt="" class="footer-transform__img">
+                                <img src="./assets/img/transport/vnpost.png" alt="" class="footer-transform__img">
+                                <img src="./assets/img/transport/vtpost.png" alt="" class="footer-transform__img">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="grid__column-2-4">
+                        <span class="footer__header">THEO DÕI SHOPEE</span> 
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    <i class="fa-brands fa-square-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    <i class="fa-brands fa-square-linkedin"></i>
+                                    Linkedln
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <span class="footer__header ">TẢI ỨNG DỤNG SHOPEE</span>
+                        <div class="footer__download">
+                            <a href="#" class="footer__download-link">
+                                <img src="./assets/img/qr_code.png" alt="#" class="footer__QR">
+                            </a>
+                            <div class="footer__app">
+                                <a href="#" class="footer__download-link">
+                                    <img src="./assets/img/app_store.png" alt="#" class="footer__app-img">
+                                </a>
+                                <a href="#" class="footer__download-link">
+                                    <img src="./assets/img/google_play.png" alt="#" class="footer__app-img">
+                                </a>
+                                <a href="#" class="footer__download-link">
+                                    <img src="./assets/img/app_gallery.png" alt="#" class="footer__app-img">
+                                </a>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+            </div>
         </footer>
+
+        <div class="footer-bottom">
+            <div class="grid wide">
+                <div class="footer-bottom__header">
+                    <div class="footer-bottom__header-policy footer-bottom__header-policy--separate">
+                        <a href="#" class="footer-bottom__header-policy-link">Chính sách bảo mật</a>
+                    </div>
+                    <div class="footer-bottom__header-policy footer-bottom__header-policy--separate">
+                        <a href="#" class="footer-bottom__header-policy-link">Quy chế hoạt động</a>
+                    </div>
+                    <div class="footer-bottom__header-policy footer-bottom__header-policy--separate">
+                        <a href="#" class="footer-bottom__header-policy-link">Chính sách vận chuyển</a>
+                    </div>
+                    <div class="footer-bottom__header-policy">
+                        <a href="#" class="footer-bottom__header-policy-link">CHÍNH SÁCH TRẢ HÀNG VÀ HOÀN TIỀN</a>
+                    </div>
+                </div>
+                <div class="footer-bottom__coppyright">
+                    © 2015 - Bản quyền thuộc về NTK
+                </div>
+                
+            </div>
+        </div>
     </div>
 
     <!-- <div class="modal">

@@ -1,0 +1,20 @@
+/* mobile & tablet */
+@media (max-width: 1023px) {
+    .hide__mobile-tablet {
+        display: none;
+    }
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide__tablet {
+        display: none;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    .hide__mobile {
+        display: none;
+    }
+}
