@@ -3,6 +3,14 @@
     .hide__mobile-tablet {
         display: none;
     }
+
+    .header__cart {
+        margin: 4px 10px;
+    }
+
+    .header__logo {
+        margin: 0;
+    }
 }
 
 /* tablet */

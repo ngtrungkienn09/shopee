@@ -869,7 +869,7 @@
 
 .banner-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 10px 0 16px;
 }
 
@@ -877,7 +877,8 @@
     text-decoration: none;
     color: var(--text-color);
     text-align: center;
-    min-width: 140px;
+    flex: 1;
+    margin: 0 4px;
     padding-bottom: 8px;
 }
 
