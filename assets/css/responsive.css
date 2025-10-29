@@ -1,15 +1,36 @@
+/* pc low - mobile - tablet*/
+@media (max-width: 1239px) {
+    .hide__pc-mobile-tablet {
+        display: none;
+    }
+}
+
 /* mobile & tablet */
 @media (max-width: 1023px) {
     .hide__mobile-tablet {
         display: none;
     }
-
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+    }
+    .banner {
+        margin-top: 68px;
+    }
     .header__cart {
         margin: 4px 10px;
     }
-
     .header__logo {
         margin: 0;
+    }
+    .header__cart-list {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
     }
 }
 
@@ -24,5 +45,9 @@
 @media (max-width: 739px) {
     .hide__mobile {
         display: none;
+    }
+    
+    .header__search {
+        margin-left: 12px;
     }
 }

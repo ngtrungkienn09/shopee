@@ -738,6 +738,8 @@
 .header__cart-list-item {
     padding: 0;
     margin: 0;
+    height: 56vh;
+    overflow-y: scroll;
 }
 
 .header__cart-item {
