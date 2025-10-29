@@ -28,9 +28,11 @@
     }
     .header__cart-list {
         position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
+        top: 75px;
+        width: 100%;
+    }
+    .header__cart-list::after {
+        display: none;
     }
 }
 
@@ -38,6 +40,9 @@
 @media (min-width: 740px) and (max-width: 1023px) {
     .hide__tablet {
         display: none;
+    }
+    .header__cart-list {
+        padding: 0 calc((100% - 644px) / 2);
     }
 }
 
@@ -49,5 +54,8 @@
     
     .header__search {
         margin-left: 12px;
+    }
+    .header__cart-list {
+        padding: 0 12px;
     }
 }
