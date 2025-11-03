@@ -4,6 +4,8 @@
     --text-color : #333;
     --primary-color : #EE4D2D;
     --border-color : #dbdbdb;
+    --height-header-responsive : 74px;
+    --height-sort-bar-responsive : 44px;
 }
 
 * {
