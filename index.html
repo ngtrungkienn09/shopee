@@ -16,9 +16,9 @@
     <div id="main">
         <header class="header">
             <div class="grid wide">
-                <div class="header__navbar flex hide__mobile-tablet">
+                <div class="header__navbar hide__mobile-tablet">
                     <div class="navbar-list-left">
-                        <ul class="header__navbar-list flex">
+                        <ul class="header__navbar-list">
                             <li class="header__navbar-item header__navbar-item--separate">
                                 <a class="header__navbar-item-link" href="#">Kênh Người Bán</a>
                             </li>
@@ -31,7 +31,7 @@
                                 </p>
                                 <div class="header__navbar-qr">
                                     <img src="./assets/img/qr_code.png" alt="QR code" class="header__img-qr">
-                                    <div class="header__app-download flex">
+                                    <div class="header__app-download">
                                         <img src="./assets/img/google_play.png" alt="Google Play" class="img-app-download">
                                         <img src="./assets/img/app_store.png" alt="App Store" class="img-app-download">
                                     </div>
@@ -50,7 +50,7 @@
                     </div>
     
                     <div class="navbar-list-right">
-                        <ul class="header__navbar-list flex">
+                        <ul class="header__navbar-list">
                             <li class="header__navbar-item header__navbar-item--separate header__navbar-item--show-notify">
                                 <p class="header__navbar-item-link">
                                     <i class="header__navbar-icon fa-solid fa-bell"></i>
@@ -62,7 +62,7 @@
                                     </header>
                                     <ul class="header__notification-list">
                                         <li class="header__notification-item header__notification-item--viewed">
-                                            <a href="#" class="header__notification-link flex">
+                                            <a href="#" class="header__notification-link">
                                                 <img src="./assets/img/shopee.png" alt="" class="header__notification-img">
                                                 <div class="header__notification-info">
                                                     <h3 class="header__notification-tittle">
@@ -75,7 +75,7 @@
                                             </a>
                                         </li>
                                         <li class="header__notification-item">
-                                            <a href="#" class="header__notification-link flex">
+                                            <a href="#" class="header__notification-link">
                                                 <img src="./assets/img/shopee.png" alt="" class="header__notification-img">
                                                 <div class="header__notification-info">
                                                     <h3 class="header__notification-tittle">
@@ -88,7 +88,7 @@
                                             </a>
                                         </li>
                                         <li class="header__notification-item header__notification-item--viewed">
-                                            <a href="#" class="header__notification-link flex">
+                                            <a href="#" class="header__notification-link">
                                                 <img src="./assets/img/shopee.png" alt="" class="header__notification-img">
                                                 <div class="header__notification-info">
                                                     <h3 class="header__notification-tittle">
@@ -101,7 +101,7 @@
                                             </a>
                                         </li>
                                         <li class="header__notification-item">
-                                            <a href="#" class="header__notification-link flex">
+                                            <a href="#" class="header__notification-link">
                                                 <img src="./assets/img/shopee.png" alt="" class="header__notification-img">
                                                 <div class="header__notification-info">
                                                     <h3 class="header__notification-tittle">
@@ -170,8 +170,16 @@
                     </div>
                 </div>
 
-                <div class="header-with-search flex">
-                    <div class="header__logo hide__mobile">
+                <div class="header-with-search">
+                    <div class="header-mobile">
+                        <label for="mobile-nav-checkbox" class="header__mobile-nav">
+                            <i class="header__mobile-nav-icon fa-solid fa-list"></i>
+                        </label>
+                        <label for="mobile-search-checkbox" class="header__mobile-search">
+                            <i class="header__mobile-search-icon fa-solid fa-magnifying-glass"></i>
+                        </label>
+                    </div>
+                    <div class="header__logo">
                         <a href="/" class="header__logo-link">
                             <svg viewBox="0 0 192 65" class="header__logo-img">
                                 <g fill-rule="evenodd">
@@ -182,8 +190,8 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="header__search">
-                        <div class="header__search-container flex">
+                    <div class="header__search hide__mobile">
+                        <div class="header__search-container">
                             <div class="header__search-box">
                                 <input type="text" placeholder="Tìm kiếm sản phẩm" class="header__search-input">
                                 <div class="header__search-history">
@@ -225,7 +233,7 @@
                             </div>
                         </div>
                         <div class="header__search-topic hide__pc-mobile-tablet">
-                            <ul class="header__search-list flex">
+                            <ul class="header__search-list">
                                 <li class="header__search-item"><a href="" class="header__search-link">Trang Trí Ô Tô Dễ Thương</a></li>
                                 <li class="header__search-item"><a href="" class="header__search-link">Bỉm Momoji</a></li>
                                 <li class="header__search-item"><a href="" class="header__search-link">Áo Sơ Mi Đen Nữ Sang Chảnh</a></li>
@@ -251,62 +259,62 @@
                                 <ul class="header__cart-list-item">
                                     <li class="header__cart-item">
                                         <img src="./assets/img/quan_1.jpg" alt="" class="header__cart-item-img">
-                                        <div class="header__cart-item-info flex">
+                                        <div class="header__cart-item-info">
                                             <div class="header__cart-item-name">Quần ống rộng suông nữ dạng cao cấp màu ghi </div>
                                             <div class="header__cart-item-description">Phân loại : quần áo</div>
                                         </div>
-                                        <div class="header__cart-price flex">
+                                        <div class="header__cart-price">
                                             <div class="header__cart-item-price">450.000 đ</div>
                                             <div class="header__cart-item-remove">Xóa</div>
                                         </div>
                                     </li>
-                                    <li class="header__cart-item flex">
+                                    <li class="header__cart-item">
                                         <img src="./assets/img/dt_1.jpg" alt="" class="header__cart-item-img">
-                                        <div class="header__cart-item-info flex">
+                                        <div class="header__cart-item-info">
                                             <div class="header__cart-item-name">Điện thoại Apple iPhone 17 Pro Max 256GB</div>
                                             <div class="header__cart-item-description">Phân loại : Điện tử</div>
                                         </div>
-                                        <div class="header__cart-price flex">
+                                        <div class="header__cart-price">
                                             <div class="header__cart-item-price">39.990.000 đ</div>
                                             <div class="header__cart-item-remove">Xóa</div>
                                         </div>
                                     </li>
-                                    <li class="header__cart-item flex">
+                                    <li class="header__cart-item">
                                         <img src="./assets/img/ao_1.jpg" alt="" class="header__cart-item-img">
-                                        <div class="header__cart-item-info flex">
+                                        <div class="header__cart-item-info">
                                             <div class="header__cart-item-name">Áo sơ mi nữ form rộng tay lỡ LAHSTORE vải linen Hàn</div>
                                             <div class="header__cart-item-description">Phân loại : quần áo</div>
                                         </div>
-                                        <div class="header__cart-price flex">
+                                        <div class="header__cart-price">
                                             <div class="header__cart-item-price">250.000 đ</div>
                                             <div class="header__cart-item-remove">Xóa</div>
                                         </div>
                                     </li>
-                                    <li class="header__cart-item flex">
+                                    <li class="header__cart-item">
                                         <img src="./assets/img/tl_1.jpg" alt="" class="header__cart-item-img">
-                                        <div class="header__cart-item-info flex">
+                                        <div class="header__cart-item-info">
                                             <div class="header__cart-item-name">Tủ Lạnh Samsung 4 Cửa với Twin Cooling Plus 488L màu Đen</div>
                                             <div class="header__cart-item-description">Phân loại : Đồ điện tử </div>
                                         </div>
-                                        <div class="header__cart-price flex">
+                                        <div class="header__cart-price">
                                             <div class="header__cart-item-price">14.590.000 đ</div>
                                             <div class="header__cart-item-remove">Xóa</div>
                                         </div>
                                     </li>
-                                    <li class="header__cart-item flex">
+                                    <li class="header__cart-item">
                                         <img src="./assets/img/dh_1.jpg" alt="" class="header__cart-item-img">
-                                        <div class="header__cart-item-info flex">
+                                        <div class="header__cart-item-info">
                                             <div class="header__cart-item-name">Đồng Hồ Nam Dây Lưới Thép Siêu Mỏng</div>
                                             <div class="header__cart-item-description">Phân loại : Trang sức</div>
                                         </div>
-                                        <div class="header__cart-price flex">
+                                        <div class="header__cart-price">
                                             <div class="header__cart-item-price">850.000 đ</div>
                                             <div class="header__cart-item-remove">Xóa</div>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
-                            <div class="header__cart-footer flex">
+                            <div class="header__cart-footer">
                                 <span class="header__cart-re-quantity">10 Sản Phẩm Khác Trong Giỏ</span>
                                 <a href="#" class="btn btn--primary header__cart-view">Xem Giỏ Hàng</a>
                             </div>
@@ -1169,7 +1177,7 @@
             <div class="modal__inner">
                 <div class="auth-form">
                     <div class="auth-form__container">
-                        <div class="auth-form__header flex">
+                        <div class="auth-form__header">
                             <h3 class="auth-form__heading">Đăng ký</h3>
                             <span class="auth-form__switch-btn">Đăng nhập</span>
                         </div>
@@ -1192,15 +1200,15 @@
                                     <a href="" class="auth-form__policy-link">Chính sách bảo mật</a>
                                 </p>
                             </div>
-                            <div class="auth-form__controls flex">
+                            <div class="auth-form__controls">
                                 <button class="btn">TRỞ LẠI</button>
                                 <button class="btn btn--primary">ĐĂNG KÝ</button>
                             </div>
                         </div>
                     </div>
-                    <div class="auth-form__footer flex">
+                    <div class="auth-form__footer ">
                         <div class="connect-social connect-social--facebook">
-                            <a href="" class="connect-social-link connect-social-link--facebook flex">
+                            <a href="" class="connect-social-link connect-social-link--facebook">
                                 <i class="fa-brands fa-square-facebook"></i>
                                 <span>
                                     Kết nối với Facebook
@@ -1208,7 +1216,7 @@
                             </a>
                         </div>
                         <div class="connect-social connect-social--google">
-                            <a href="" class="connect-social-link connect-social-link--google flex">
+                            <a href="" class="connect-social-link connect-social-link--google">
                                 <i class="fa-brands fa-google"></i>
                                 <span>
                                     Kết nối với Google
@@ -1224,7 +1232,7 @@
             <div class="modal__inner">
                 <div class="auth-form">
                     <div class="auth-form__container">
-                        <div class="auth-form__header flex">
+                        <div class="auth-form__header">
                             <h3 class="auth-form__heading">Đăng nhập</h3>
                             <span class="auth-form__switch-btn">Đăng ký</span>
                         </div>
@@ -1237,7 +1245,7 @@
                                     <input type="password" placeholder="Mật khẩu của bạn" class="auth-form__input">
                                 </div>
                             </div>
-                            <div class="auth-form__help flex">
+                            <div class="auth-form__help">
                                 <a href="" class="auth-form__help-link auth-form__help-separate">
                                     Quên mật khẩu
                                 </a>
@@ -1245,15 +1253,15 @@
                                     Cần trợ giúp?
                                 </a>
                             </div>
-                            <div class="auth-form__controls flex">
+                            <div class="auth-form__controls">
                                 <button class="btn">TRỞ LẠI</button>
                                 <button class="btn btn--primary">ĐĂNG NHẬP</button>
                             </div>
                         </div>
                     </div>
-                    <div class="auth-form__footer flex">
+                    <div class="auth-form__footer">
                         <div class="connect-social connect-social--facebook">
-                            <a href="" class="connect-social-link connect-social-link--facebook flex">
+                            <a href="" class="connect-social-link connect-social-link--facebook">
                                 <i class="fa-brands fa-square-facebook"></i>
                                 <span>
                                     Đăng nhập với Facebook
@@ -1261,7 +1269,7 @@
                             </a>
                         </div>
                         <div class="connect-social connect-social--google">
-                            <a href="" class="connect-social-link connect-social-link--google flex">
+                            <a href="" class="connect-social-link connect-social-link--google">
                                 <i class="fa-brands fa-google"></i>
                                 <span>
                                     Đăng nhập với Google

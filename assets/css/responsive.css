@@ -62,5 +62,12 @@
     .header__cart-list {
         padding: 0 12px;
     }
-    
+    .header-mobile {
+        display: block;
+    }
+    .header-with-search {
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 16px;
+    }
 }
