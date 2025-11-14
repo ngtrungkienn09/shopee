@@ -53,10 +53,6 @@ html {
     padding: 0 6px;
 }
 
-.flex {
-    display: flex;
-}
-
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -85,6 +81,17 @@ html {
     to {
         transform: scale(var(--growth-to));
         opacity: var(--growth-to);
+    }
+}
+
+@keyframes mobileSearchSlideIn {
+    from {
+        opacity: 0;
+        top: calc(var(--height-header-responsive) / 2);
+    }
+    to {
+        opacity: 1;
+        top: var(--height-header-responsive);
     }
 }
 
@@ -155,6 +162,7 @@ html {
     list-style: none;
     align-items: center;
     justify-content: center;
+    padding: 0;
 }
 
 .pagination-item {

@@ -169,6 +169,7 @@
                         </ul>
                     </div>
                 </div>
+
                 <div class="header-with-search">
                     <div class="header-mobile">
                         <label for="mobile-nav-checkbox" class="header__mobile-nav">
@@ -178,7 +179,6 @@
                             <i class="header__mobile-search-icon fa-solid fa-magnifying-glass"></i>
                         </label>
                     </div>
-                    
                     <div class="header__logo">
                         <a href="/" class="header__logo-link">
                             <svg viewBox="0 0 192 65" class="header__logo-img">
@@ -322,56 +322,8 @@
                     </div>
                 </div>
             </div>
-        </header>
 
-        <input type="checkbox" hidden id="mobile-search-checkbox" class="header__search-checkbox">
-        
-        <div class="header__search-mobile">
-            <div class="header__search-mobile-container">
-                <div class="header__search-box">
-                    <input type="text" placeholder="Tìm kiếm sản phẩm" class="header__search-input">
-                    <div class="header__search-history">
-                        <ul class="header__search-history-list">
-                            <li class="header__search-history-item">
-                                <a href="" class="header__search-history-link">Kem trị mụn</a>
-                            </li>
-                            <li class="header__search-history-item">
-                                <a href="" class="header__search-history-link">Đồng hồ thông minh</a>
-                            </li>
-                            <li class="header__search-history-item">
-                                <a href="" class="header__search-history-link">Iphone 17 PRO</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="header__search-selection ">
-                    <span class="header__search-label">Trong shop</span>
-                    <i class="fa-solid fa-angle-down"></i>
-                    <div class="header__search-option">
-                        <ul class="header__search-option-list">
-                            <li class="header__search-option-item">
-                                <span>  
-                                    Trong shop
-                                </span>
-                                <i class="fa-solid fa-check"></i>
-                            </li>
-                            <li class="header__search-option-item">
-                                <span>
-                                    Ngoài shop
-                                </span>
-                                <i class="fa-solid fa-check"></i>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="header__search-icon">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="header__sort-bar">
-            <div class="grid wide">
+            <div class="header__sort-bar">
                 <ul class="header__sort-bar-list">
                     <li class="header__sort-bar-item">
                         <a href="" class="header__sort-bar-link">
@@ -395,7 +347,7 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </header>
 
         <div class="banner">
             <div class="grid wide">
@@ -410,7 +362,7 @@
                 </div>
             </div>
             <div class="grid wide">
-                <div class="banner-list hide__mobile">
+                <div class="banner-list">
                     <a href="#" class="banner-link">
                         <div class="banner-item">
                             <img src="https://cf.shopee.vn/file/vn-11134258-820l4-mesa7k74mh35b5_xhdpi" alt="" class="banner-item-img">
@@ -464,8 +416,8 @@
 
         <div class="container">
             <div class="grid wide">
-                <div class="row sm-gutter container__content">
-                    <div class="col l-2 m-0 c-0">
+                <div class="grid__row container__content">
+                    <div class="grid__column-2">
                         <div class="category">
                             <h3 class="category-heading">
                                 <i class="fa-solid fa-list category-heading-icon"></i>
@@ -490,7 +442,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col l-10 m-12 c-12">
+                    <div class="grid__column-10">
                         <div class="heading-sort hide__mobile-tablet">
                             <div class="heading-sort__option">
                                 <span class="heading-sort__label">Sắp xếp theo</span>
@@ -520,8 +472,8 @@
                         </div>
 
                         <div class="home-product">
-                            <div class="row sm-gutter">
-                                <div class="col l-2-4 m-4 c-6">
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
                                     <div class="home-product-item">
                                         <a href="#" class="home-product-item-link">
                                             <div class="home-product-item__img" style="background-image: url('https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mevp20jr0j5z93_tn.webp');"></div>
@@ -566,7 +518,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col l-2-4 m-4 c-6">
+                                <div class="grid__column-2-4">
                                     <div class="home-product-item">
                                         <a href="#" class="home-product-item-link">
                                             <div class="home-product-item__img" style="background-image: url('https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lupvwpc810cyf9_tn.webp://down-vn.img.susercontent.com/file/vn-11134207-820l4-mevp20jr0j5z93_tn.webp');"></div>
@@ -611,7 +563,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col l-2-4 m-4 c-6">
+                                <div class="grid__column-2-4">
                                     <div class="home-product-item">
                                         <a href="#" class="home-product-item-link">
                                             <div class="home-product-item__img" style="background-image: url('https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-mbsw1g13h8cudd_tn.webp://down-vn.img.susercontent.com/file/vn-11134207-820l4-mevp20jr0j5z93_tn.webp');"></div>
@@ -656,7 +608,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col l-2-4 m-4 c-6">
+                                <div class="grid__column-2-4">
                                     <div class="home-product-item">
                                         <a href="#" class="home-product-item-link">
                                             <div class="home-product-item__img" style="background-image: url('https://down-vn.img.susercontent.com/file/vn-11134201-7ras8-mavb09d1izmf51_tn.webp');"></div>
@@ -701,7 +653,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col l-2-4 m-4 c-6">
+                                <div class="grid__column-2-4">
                                     <div class="home-product-item">
                                         <a href="#" class="home-product-item-link">
                                             <div class="home-product-item__img" style="background-image: url('https://down-vn.img.susercontent.com/file/vn-11134207-820l4-merewrjqytj76c_tn.webp');"></div>
@@ -746,7 +698,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col l-2-4 m-4 c-6">
+                                <div class="grid__column-2-4">
                                     <div class="home-product-item">
                                         <a href="#" class="home-product-item-link">
                                             <div class="home-product-item__img" style="background-image: url('https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m8cw2rqzwj1qb7_tn.webp');"></div>
@@ -791,7 +743,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col l-2-4 m-4 c-6">
+                                <div class="grid__column-2-4">
                                     <div class="home-product-item">
                                         <a href="#" class="home-product-item-link">
                                             <div class="home-product-item__img" style="background-image: url('https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-ma00c0w19o4u15_tn.webp');"></div>
@@ -836,7 +788,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col l-2-4 m-4 c-6">
+                                <div class="grid__column-2-4">
                                     <div class="home-product-item">
                                         <a href="#" class="home-product-item-link">
                                             <div class="home-product-item__img" style="background-image: url('https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lm4q72bu0b8f8c_tn.webp');"></div>
@@ -881,7 +833,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col l-2-4 m-4 c-6">
+                                <div class="grid__column-2-4">
                                     <div class="home-product-item">
                                         <a href="#" class="home-product-item-link">
                                             <div class="home-product-item__img" style="background-image: url('https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lxws8t2ms7a342_tn.webp');"></div>
@@ -926,7 +878,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col l-2-4 m-4 c-6">
+                                <div class="grid__column-2-4">
                                     <div class="home-product-item">
                                         <a href="#" class="home-product-item-link">
                                             <div class="home-product-item__img" style="background-image: url('https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-mdcvewdwcrksee_tn.webp');"></div>
@@ -1026,8 +978,8 @@
 
         <footer class="footer">
             <div class="grid wide">
-                <div class="row">
-                    <div class="col l-2-4">
+                <div class="grid__row">
+                    <div class="grid__column-2-4">
                         <span class="footer__header">CHĂM SÓC KHÁCH HÀNG</span> 
                         <ul class="footer__list">
                             <li class="footer__item">
@@ -1072,7 +1024,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col l-2-4">
+                    <div class="grid__column-2-4">
                         <span class="footer__header">SHOPEE VIỆT NAM</span> 
                         <ul class="footer__list">
                             <li class="footer__item">
@@ -1117,7 +1069,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col l-2-4">
+                    <div class="grid__column-2-4">
                         <div class="footer-pay">
                             <span class="footer-pay__header">THANH TOÁN</span>
                             <div class="footer-pay__list">
@@ -1145,7 +1097,7 @@
                         </div>
                         
                     </div>
-                    <div class="col l-2-4">
+                    <div class="grid__column-2-4">
                         <span class="footer__header">THEO DÕI SHOPEE</span> 
                         <ul class="footer__list">
                             <li class="footer__item">
@@ -1168,7 +1120,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col l-2-4">
+                    <div class="grid__column-2-4">
                         <span class="footer__header ">TẢI ỨNG DỤNG SHOPEE</span>
                         <div class="footer__download">
                             <a href="#" class="footer__download-link">
